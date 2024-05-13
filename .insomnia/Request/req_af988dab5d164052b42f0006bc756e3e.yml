@@ -1,0 +1,21 @@
+_id: req_af988dab5d164052b42f0006bc756e3e
+type: Request
+parentId: fld_bb6fd15bd9664801970933e8a35c9dba
+modified: 1644524513629
+created: 1644524217706
+url: "{{ _.base_url }}/sistema/versao"
+name: Verificar versao
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644524217706
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_60bc8b2b9efa42cb85bd3e5cc9f441a4
+type: Request
+parentId: fld_4d47276c5bd44370a777e93ef44c1cbb
+modified: 1645453668446
+created: 1637069305097
+url: "{{ _.base_url }}/financial/deleteAll"
+name: Remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1637069130938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

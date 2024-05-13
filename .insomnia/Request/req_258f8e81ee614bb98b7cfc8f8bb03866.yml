@@ -1,0 +1,21 @@
+_id: req_258f8e81ee614bb98b7cfc8f8bb03866
+type: Request
+parentId: fld_6d342e54d2f843598a97c82fc27b3457
+modified: 1645453647089
+created: 1644414831334
+url: "{{ _.base_url }}/pessoaTema"
+name: Remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644414831334
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

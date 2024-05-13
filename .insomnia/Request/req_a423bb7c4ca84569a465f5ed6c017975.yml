@@ -1,0 +1,30 @@
+_id: req_a423bb7c4ca84569a465f5ed6c017975
+type: Request
+parentId: fld_e870ba94f19c4da69d47f5c69e0e4524
+modified: 1645471115820
+created: 1644595221907
+url: "{{ _.base_url }}/pessoa-convite"
+name: Insert invite code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"codigo": "rodrig538165",
+    	"idPessoaConvidada": 17
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b951a1cc3af246d3bdfa9732a8c72e61
+authentication: {}
+metaSortKey: -1644935672439.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

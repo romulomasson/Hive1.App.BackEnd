@@ -1,0 +1,21 @@
+_id: req_7191ae5a767a43ef927c371fb54148e2
+type: Request
+parentId: fld_7b7ea791d1b241be84a1f7774e8dcdf6
+modified: 1645453815690
+created: 1634305173824
+url: "{{ _.base_url }}/users/removeAll"
+name: Remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644935671989.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

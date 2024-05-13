@@ -1,0 +1,43 @@
+_id: req_800edfe560ea49c88adfed50ece04923
+type: Request
+parentId: fld_e870ba94f19c4da69d47f5c69e0e4524
+modified: 1645471119712
+created: 1634327537144
+url: "{{ _.base_url }}/users/personalInfoStep"
+name: PersonalInfoStep
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 29,
+    	"CEP": "03805010",
+    	"CPF": "50576013854",
+    	"address": "Rua Cerro de Mateus Simoes",
+    	"avatar": "AvatarTeste",
+    	"birthDay": "2003-08-20T23:30:00.000Z",
+    	"cellphone": "11945620297",
+    	"city": "São Paulo",
+    	"complement": "",
+    	"genre": "M",
+    	"name": "Luis Info Step",
+    	"nickname": "LG",
+    	"number": "563",
+    	"state": "SP",
+    	"telephone": "1120513885"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c4595d36dd314451b5ec2aea7df5b8b9
+authentication: {}
+metaSortKey: -1644935672389.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

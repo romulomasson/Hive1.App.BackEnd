@@ -1,0 +1,30 @@
+_id: req_2be884f4c0784c7e9e5cf15bfedfa9d4
+type: Request
+parentId: fld_7b7ea791d1b241be84a1f7774e8dcdf6
+modified: 1645471106954
+created: 1635339222876
+url: "{{ _.base_url }}/users/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "luisgustavofeitoza@gmail.com",
+    	"password": "12345678"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f271e6c1d5e649bab3ce7d8a9a74ced0
+authentication: {}
+metaSortKey: -1644935672214.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

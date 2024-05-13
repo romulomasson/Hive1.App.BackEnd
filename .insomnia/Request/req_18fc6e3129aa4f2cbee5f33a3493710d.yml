@@ -1,0 +1,21 @@
+_id: req_18fc6e3129aa4f2cbee5f33a3493710d
+type: Request
+parentId: fld_27ebe307b6734c66988453ba6b014575
+modified: 1645453541823
+created: 1636468049815
+url: "{{ _.base_url }}/workingDay/1"
+name: Por id Pessoa
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1636467170363
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

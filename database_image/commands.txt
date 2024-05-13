@@ -1,0 +1,4 @@
+sudo docker run -p 9000:5432 -d mydatabase 
+sudo docker build -t mydatabase database_image/
+
+npx typeorm-model-generator -h 187.191.120.199 -p 5056 -u postgres -x postgres -d HIVE1 -o . -s public -e postgres

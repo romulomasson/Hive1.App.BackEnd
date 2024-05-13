@@ -1,0 +1,32 @@
+_id: req_6908c8d612054cc28784679734396c64
+type: Request
+parentId: fld_e870ba94f19c4da69d47f5c69e0e4524
+modified: 1645471101564
+created: 1634327418217
+url: "{{ _.base_url }}/users/signupStep"
+name: SignUp
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "luisgustavofeitoza@gmail.com",
+    	"name": "luis",
+    	"password": "12345678",
+    	"token": "A"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6d5455ab6ffe409aa6b377ba2c7da424
+authentication: {}
+metaSortKey: -1644935672489.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

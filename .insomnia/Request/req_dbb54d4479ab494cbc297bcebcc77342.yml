@@ -1,0 +1,33 @@
+_id: req_dbb54d4479ab494cbc297bcebcc77342
+type: Request
+parentId: fld_e870ba94f19c4da69d47f5c69e0e4524
+modified: 1645471139004
+created: 1637242474355
+url: "{{ _.base_url }}/users/saveThemeStep"
+name: Choose Themes
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    			"idPessoa": 29,
+    			"themes": [1,2,3],
+    			"shirtSize": "P"
+    	
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9b4eeb88a2e945f5b354e0fa25716c22
+authentication: {}
+metaSortKey: -1644935672239.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

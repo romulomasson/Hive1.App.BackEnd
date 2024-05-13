@@ -1,0 +1,29 @@
+_id: req_2bdef756ed4e4376b2f57d76936f272d
+type: Request
+parentId: fld_40b4d4144ad547dea952aaea09d5db30
+modified: 1645453401251
+created: 1639412932871
+url: "{{ _.base_url }}/images/findById"
+name: One
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"idPessoa": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_155fbaab45a74886b0fbb7f9c418b27f
+authentication: {}
+metaSortKey: -1645453332666
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

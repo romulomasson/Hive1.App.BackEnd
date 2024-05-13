@@ -1,0 +1,28 @@
+version: '3'
+services:
+  api-hive1:
+    container_name: api-hive1
+    image: app-hive1:latest
+    ports:
+      - 3333:3333
+    environment:
+      PORT: 3333
+      DB_NAME: HIVE1
+      DB_HOST: postgres
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+      DB_PORT: 5432
+    depends_on:
+      - postgres
+    links:
+      - postgres
+
+  postgres:
+    container_name: mydatabase
+    restart: always
+    image: mydatabase:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: HIVE1

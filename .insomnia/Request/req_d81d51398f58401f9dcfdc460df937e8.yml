@@ -1,0 +1,21 @@
+_id: req_d81d51398f58401f9dcfdc460df937e8
+type: Request
+parentId: fld_5b06e5dcaafa406ea5d660640cfa5376
+modified: 1645455502078
+created: 1645455229465
+url: "{{ _.base_url }}/pessoa-convite/convidados-por-pessoa/15"
+name: Convidados por pessoa
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1645455497998
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

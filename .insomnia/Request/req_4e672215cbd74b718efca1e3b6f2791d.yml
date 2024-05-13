@@ -1,0 +1,30 @@
+_id: req_4e672215cbd74b718efca1e3b6f2791d
+type: Request
+parentId: fld_40b4d4144ad547dea952aaea09d5db30
+modified: 1645463970384
+created: 1645453559678
+url: "{{ _.base_url }}/images"
+name: Save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"idPessoa": 20,
+    	"imgAvatar": "https://s3.us-east-2.amazonaws.com/hive1mvp/avatar%2Fhiver-20-1645463355351"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fb6f3fe666704a3aa41d5be4b68bff57
+authentication: {}
+metaSortKey: -1645453332616
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

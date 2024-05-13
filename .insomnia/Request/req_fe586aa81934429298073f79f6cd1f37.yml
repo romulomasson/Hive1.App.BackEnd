@@ -1,0 +1,30 @@
+_id: req_fe586aa81934429298073f79f6cd1f37
+type: Request
+parentId: fld_2a93fdc69dfd42b3acf0a1fdeadae819
+modified: 1645454632593
+created: 1639509293619
+url: "{{ _.base_url }}/users/validarCadastro"
+name: Validar Cadastro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"idPessoa": 1,
+    	"flagCadastroAprovado": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e3774043a8cf40179470be0fef6787a4
+authentication: {}
+metaSortKey: -1637256950838
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

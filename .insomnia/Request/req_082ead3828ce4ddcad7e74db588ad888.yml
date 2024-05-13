@@ -1,0 +1,51 @@
+_id: req_082ead3828ce4ddcad7e74db588ad888
+type: Request
+parentId: fld_e870ba94f19c4da69d47f5c69e0e4524
+modified: 1645471129029
+created: 1635351042800
+url: "{{ _.base_url }}/users/workJourneyStep"
+name: WorkingDay
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"idPessoa": 29,
+    	"data": [
+    		{
+    			"day": "monday",
+    			"timeCourse": "morning"
+    		},
+    		{
+    			"day": "monday",
+    			"timeCourse": "afternoon"
+    		},
+    		{
+    			"day": "tuesday",
+    			"timeCourse": "morning"
+    		},
+    		{
+    			"day": "wednesday",
+    			"timeCourse": "afternoon"
+    		},
+    		{
+    			"day": "saturday",
+    			"timeCourse": "morning"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7151223f847740e38006c5c1b4f1ae4e
+authentication: {}
+metaSortKey: -1644935672339.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

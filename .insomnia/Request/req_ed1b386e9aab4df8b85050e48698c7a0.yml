@@ -1,0 +1,26 @@
+_id: req_ed1b386e9aab4df8b85050e48698c7a0
+type: Request
+parentId: fld_2a93fdc69dfd42b3acf0a1fdeadae819
+modified: 1645453844640
+created: 1637256950788
+url: "{{ _.base_url }}/painel/listarCadastros"
+name: All
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6aada15a2a5c45ada6b363ad57461abd
+authentication: {}
+metaSortKey: -1637256950888
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_5d8149199335446f9ed1cf775b020867
+type: Request
+parentId: fld_d325bc0ebd3f42ff92ee1a4654141852
+modified: 1645453857502
+created: 1644418135601
+url: "{{ _.base_url }}/tipoTema/all"
+name: All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644419680961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

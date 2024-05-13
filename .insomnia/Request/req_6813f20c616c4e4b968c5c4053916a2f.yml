@@ -1,0 +1,21 @@
+_id: req_6813f20c616c4e4b968c5c4053916a2f
+type: Request
+parentId: fld_4d47276c5bd44370a777e93ef44c1cbb
+modified: 1645453437054
+created: 1637069130988
+url: "{{ _.base_url }}/financial"
+name: All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1637069130988
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

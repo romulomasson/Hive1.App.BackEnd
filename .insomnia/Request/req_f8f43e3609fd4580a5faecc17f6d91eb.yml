@@ -1,0 +1,21 @@
+_id: req_f8f43e3609fd4580a5faecc17f6d91eb
+type: Request
+parentId: fld_27ebe307b6734c66988453ba6b014575
+modified: 1645453527233
+created: 1636467170313
+url: "{{ _.base_url }}/workingDay"
+name: All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1636467170413
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_c0d07d13a5f3418fb057127a82c125c4
+type: Request
+parentId: fld_e870ba94f19c4da69d47f5c69e0e4524
+modified: 1645471135684
+created: 1636652259848
+url: "{{ _.base_url }}/users/financialStep"
+name: Financial information
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "idPessoa": 29,
+        "tipoConta": "corrente",
+        "idBanco": 1,
+        "agencia": "testeAgencia",
+        "conta": "testeConta",
+        "pix": "",
+        "razaoSocial": "testeRazaoSocial",
+        "cnpj": "testeCNPJ",
+        "nomeFantasia": "testeNomeFantasia"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3ad36fca6d4f4a2a9299a1d6bf57d5f1
+authentication: {}
+metaSortKey: -1644935672289.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

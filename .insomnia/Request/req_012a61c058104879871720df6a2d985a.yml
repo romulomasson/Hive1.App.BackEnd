@@ -1,0 +1,21 @@
+_id: req_012a61c058104879871720df6a2d985a
+type: Request
+parentId: fld_27ebe307b6734c66988453ba6b014575
+modified: 1645453677897
+created: 1636467829227
+url: "{{ _.base_url }}/workingDay/deleteAll"
+name: Remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1636467170313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

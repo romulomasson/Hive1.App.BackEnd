@@ -1,0 +1,13 @@
+{
+    "loggers": true,
+    "sendEmails": true,
+    "homolog": false,
+    "rateLimit": {
+        "points": 20,
+        "duration": 10
+    },
+    "jwtAuth": {
+        "on": false,
+        "expiresIn": "1d"
+    }
+}

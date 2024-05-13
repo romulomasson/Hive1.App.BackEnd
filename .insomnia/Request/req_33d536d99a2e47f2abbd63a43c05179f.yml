@@ -1,0 +1,21 @@
+_id: req_33d536d99a2e47f2abbd63a43c05179f
+type: Request
+parentId: fld_40b4d4144ad547dea952aaea09d5db30
+modified: 1645453614231
+created: 1644501361177
+url: "{{ _.base_url }}/images/removeAll"
+name: Remove
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1645453332566
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

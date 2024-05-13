@@ -1,0 +1,26 @@
+_id: req_4de449f66abc452cb5d9e0ff3dd8ac36
+type: Request
+parentId: fld_41e5ae2f97874c3c9c97ed242db00916
+modified: 1645453852018
+created: 1636485422786
+url: "{{ _.base_url }}/logs"
+name: All
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e44a58bb763a42e09798b230825570e1
+authentication: {}
+metaSortKey: -1636485422786
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

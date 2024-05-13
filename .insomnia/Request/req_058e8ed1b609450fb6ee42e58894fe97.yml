@@ -1,0 +1,29 @@
+_id: req_058e8ed1b609450fb6ee42e58894fe97
+type: Request
+parentId: fld_7b7ea791d1b241be84a1f7774e8dcdf6
+modified: 1645461456374
+created: 1637264104120
+url: "{{ _.base_url }}/users/loginSocial"
+name: Login Social
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"token": "E"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_595428c52a2d4b238831c19aa508ee24
+authentication: {}
+metaSortKey: -1644935672202
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

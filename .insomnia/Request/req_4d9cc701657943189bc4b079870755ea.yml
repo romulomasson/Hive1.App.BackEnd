@@ -1,0 +1,21 @@
+_id: req_4d9cc701657943189bc4b079870755ea
+type: Request
+parentId: fld_5b06e5dcaafa406ea5d660640cfa5376
+modified: 1645455500950
+created: 1644598172525
+url: "{{ _.base_url }}/pessoa-convite"
+name: All
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1645455498023
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_66d9525e133c47a9b6e7d3479b7137b9
+type: Request
+parentId: fld_7b7ea791d1b241be84a1f7774e8dcdf6
+modified: 1645453308318
+created: 1637180073654
+url: "{{ _.base_url }}/users/validarEmail/dc6eefea-040f-4592-8023-69659388a7ac"
+name: Validar Email
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644935672089.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
